@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Amanda Lee</title>
+</head>
+
+<body>
+   <header>
+       <nav>
+         <a class="logo" href="#">amanda lee</a>
+         <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+         </ul>
+       </nav>
+   </header>
+
+   <!-- About Section -->
+   <main>
+  <section id="about">
+    <p class="tagline">LCSW · aerialist · developer</p>
+    <h1>Hi, I'm <em>Amanda</em> —<br>I build things that feel human.</h1>
+    <p class="bio">Former therapist turned front-end developer. I bring the same care I used in the therapy room to the products I help build.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn-primary">See my work ↓</a>
+      <a href="#contact" class="btn-secondary">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+   <section id="skills">
+      <h2>Skills</h2>
+         <div class="skills-grid">
+         <div class="skills-card">
+            <h3>Technical</h3>
+            <ul>
+               <li>HTML & CSS</li>
+               <li>JavaScript</li>
+               <li>Responsive Design</li>
+               <li>Git & GitHub</li>
+            </ul>
+         </div>
+         <div class="skills-card">
+            <h3>Transferable</h3>
+            <ul>
+               <li>Customer Success</li>
+               <li>Care Navigation</li>
+               <li>Clinical Documentation</li>
+               <li>Cross-functional Collaboration</li>
+               <li>Crisis De-escalation</li>
+               <li>Active Listening</li>
+            </ul>
+         </div>
+         </div>
+   </section>
+
+<!--Projects Section  -->
+   <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+      <div class="project-card">
+      <div class="project-image">
+        <img src="https://res.cloudinary.com/dlvygr4jq/image/upload/v1773192927/jellycat.boo_shows_screenshot_ifr8qk.png" alt="jellycat.boo screenshot">
+      </div>
+      <div class="project-info">
+        <h3>jellycat.boo</h3>
+        <p>Personal multi-page site built from scratch with HTML, CSS, and JavaScript. Responsive design, working contact form, and custom styling.</p>
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <a href="https://jellycat.boo" target="_blank" class="btn-primary">View site →</a>
+      </div>
+    </div>
+
+    <div class="project-card coming-soon">
+      <div class="project-image placeholder">
+        <p>more coming soon</p>
+      </div>
+      <div class="project-info">
+        <h3>More on the way</h3>
+        <p>I'm currently building out more projects as I continue learning. Check back soon!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Say hello</h2>
+  <p class="contact-intro">Whether you want to talk about a job opportunity, a project, or just want to connect — I'd love to hear from you.</p>
+
+  <form id="contact-form"action="https://formspree.io/f/xvzwknwr" method="POST">
+    <input type="text" name="name" id="name" placeholder="Your name" required>
+    <span class="error-msg" id="name-error"></span>
+    <input type="email" name="email" id="email"placeholder="Your email address" required>
+    <span class="error-msg" id="email-error"></span>
+    <textarea name="message" id="message"rows="5" placeholder="Your message" required></textarea>
+    <span class="error-msg" id="message-error"></span>
+    <button type="submit">Send →</button>
+  </form>
+
+  <p class="contact-links">Or reach me directly:
+    <a href="mailto:amandalsapale@gmail.com">Email</a> ·
+    <a href="https://instagram.com/jellycat.aerial" target="_blank">Instagram</a> ·
+    <a href="https://linkedin.com/in/amandatlee" target="_blank">LinkedIn</a>
+  </p>
+</section>
+</main>
+<!-- Footer -->
+ <footer>
+  <p>designed & built by <em>Amanda Lee</em></p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
